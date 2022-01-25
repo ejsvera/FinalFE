@@ -1,0 +1,61 @@
+:root {
+    --colorNormal: #FFFFCC;
+    --colorImportante: #EC7063;
+    --colorBackground: #666;
+    --colorGrisOscuro: #111;
+    --colorClaro: white;
+  }
+
+/* @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap'); */
+/* font-family: 'Reenie Beanie', cursive; */
+
+ul li {
+    margin: 1em;
+    float: left;
+}
+
+ul li h2 {
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.postit {
+    font-family: "Reenie Beanie", cursive, sans-serif;
+    font-size: 180%;
+    height: 250px;
+}
+
+.giroderecha {
+    transform: rotate(5deg);
+}
+
+.giroizquierda {
+    transform: rotate(-5deg);
+}
+
+.postit #titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.normal {
+    background-color: var(--colorNormal);
+}
+
+.importante {
+    background-color: var(--colorImportante);
+}
+
+body {
+    background-color: var(--colorBackground);
+}
+
+/* .root {
+    background-color: var(--colorBackground);
+} */
+
+.textoBlanco {
+    color: var(--colorClaro);
+    font: bold;
+}
